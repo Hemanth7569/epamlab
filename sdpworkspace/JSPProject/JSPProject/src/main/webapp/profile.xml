@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="pro.xsl" type="text/xsl"?>
+<profiles>
+
+<profile >
+<fname>Rajesh</fname>
+<lname>Kumar</lname>
+<age>32</age>
+<phone>1234567890</phone>
+<gender>male</gender>
+</profile>
+
+<profile >
+<fname>Banu</fname>
+<lname>Sree</lname>
+<age>28</age>
+<phone>9876543210</phone>
+<gender>female</gender>
+</profile>
+
+<profile >
+<fname>Ambresh</fname>
+<lname>Rajesh</lname>
+<age>10</age>
+<phone>9876543210</phone>
+<gender>male</gender>
+</profile>
+
+</profiles>

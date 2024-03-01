@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>EP</title>
+<style>
+body {
+  background-image: url("https://mcdn.wallpapersafari.com/medium/17/15/nlmc0k.jpg");
+  background-size: cover;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+h2 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+form {
+  margin-top: 20px;
+}
+
+table {
+  margin: 0 auto;
+}
+
+td {
+  padding: 5px;
+}
+
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="submit"],
+input[type="reset"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #4CAF50;
+  color: #fff;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+  background-color: #45a049;
+}
+
+</style>
+</head>
+<body>
+  <div class="container">
+    <h2>Admin Login</h2>
+    <form method="post" action="admincheck.jsp">
+      <table>
+        <tr>
+          <td><b>Email ID</b></td>
+          <td><input type="email" name="email" required></td>
+        </tr>
+        <tr>
+          <td><b>Password</b></td>
+          <td><input type="password" name="pwd" required></td>
+        </tr>
+        <tr>
+          <td colspan="2" align="center">
+            <input type="submit" value="Login">
+            
+          </td>
+        </tr>
+      </table>
+    </form>
+  </div>
+</body>
+</html>
